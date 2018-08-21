@@ -16,4 +16,10 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="WiringPi">
+      <HintPath>..\..\..\..\..\..\vsts\WiringPi.Net-master\WiringPi\bin\Debug\WiringPi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
