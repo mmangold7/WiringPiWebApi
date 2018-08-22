@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiringPiApi", "WiringPiApi\WiringPiApi.csproj", "{DE63D895-EFBF-4DC0-B738-0C20A91C1F6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WiringPiApi", "WiringPiApi\WiringPiApi.csproj", "{DE63D895-EFBF-4DC0-B738-0C20A91C1F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiringPi", "..\..\..\..\..\vsts\WiringPi.Net-master\WiringPi\WiringPi.csproj", "{44164C3F-B228-4488-B027-EA9717E7E6E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DE63D895-EFBF-4DC0-B738-0C20A91C1F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE63D895-EFBF-4DC0-B738-0C20A91C1F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE63D895-EFBF-4DC0-B738-0C20A91C1F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44164C3F-B228-4488-B027-EA9717E7E6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44164C3F-B228-4488-B027-EA9717E7E6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44164C3F-B228-4488-B027-EA9717E7E6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44164C3F-B228-4488-B027-EA9717E7E6E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

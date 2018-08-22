@@ -17,9 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="WiringPi">
-      <HintPath>..\..\..\..\..\..\vsts\WiringPi.Net-master\WiringPi\bin\Debug\WiringPi.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\..\..\..\..\vsts\WiringPi.Net-master\WiringPi\WiringPi.csproj" />
   </ItemGroup>
 
 </Project>
